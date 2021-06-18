@@ -26,7 +26,7 @@ const WeeklyCalendar = props => {
         applyLocale(props.locale, cancelText => setCancelText(cancelText), confirmText => setConfirmText(confirmText))
         createEventMap(props.events)
         setCalendarReady(true)
-    }, [])
+    }, [props.events])
 
     const createEventMap = events => {
         let dateMap = new Map()
