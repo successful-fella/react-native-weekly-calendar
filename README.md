@@ -1,6 +1,14 @@
 # react-native-weekly-calendar
-[![Version](https://img.shields.io/npm/v/react-native-weekly-calendar.svg)](https://www.npmjs.com/package/react-native-weekly-calendar)
-[![Downloads](https://img.shields.io/npm/dm/react-native-weekly-calendar.svg)](https://www.npmjs.com/package/react-native-weekly-calendar)
+
+# Altered version
+
+This forked to make following changes:
+- Update events on state change
+- Styling header and arrow icons
+- onEventPress() prop to receive event_id on event press
+
+
+# Original Description
 
 React Native Weekly Calendar component with customization
 
