@@ -5,7 +5,7 @@
 This forked to make following changes:
 - Update events on state change
 - Styling header and arrow icons
-- onEventPress() prop to receive event_id on event press
+- onEventPress() prop to receive event_id on event press (event_id must be passed in events)
 
 
 # Original Description
